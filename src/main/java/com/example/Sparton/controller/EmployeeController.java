@@ -18,7 +18,6 @@ public class EmployeeController {
     public Employee getName(@PathVariable String id) {
         employeeService.getEmployeeName(id);
         System.out.println("children");
-        System.out.println("Name :" + id);
         return employeeService.getEmployeeName(id);
 
     }
